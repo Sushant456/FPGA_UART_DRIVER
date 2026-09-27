@@ -1,0 +1,6 @@
+verilog work "third_party/TX_module.v"
+verilog work "third_party/RX_module.v"
+verilog work "third_party/FIFO.v"
+verilog work "third_party/Baud_generator.v"
+verilog work "third_party/uart_main.v"
+verilog work "src/top_module.v"

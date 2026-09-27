@@ -1,0 +1,277 @@
+xst -intstyle ise -ifn "C:/Users/user/Desktop/Anirudh/Projects/Mimas V2/FPGA sample codes/MimasV2/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/user/Desktop/Anirudh/Projects/Mimas V2/FPGA sample codes/MimasV2/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "ucf/mimasV2.ucf" -p xc6slx9-csg324-2 "top_module.ngc" top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Users/user/Desktop/Anirudh/Projects/Mimas V2/FPGA sample codes/MimasV2/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/user/Desktop/Anirudh/Projects/Mimas V2/FPGA sample codes/MimasV2/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "ucf/mimasV2.ucf" -p xc6slx9-csg324-2 "top_module.ngc" top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "ucf/mimasV2.ucf" -p xc6slx9-csg324-2 "top_module.ngc" top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "ucf/mimasV2.ucf" -p xc6slx9-csg324-2 "top_module.ngc" top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.xst" -ofn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.xst" -ofn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.xst" -ofn "C:/Xilinx/Projects/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.xst" -ofn "C:/Users/susha/Downloads/mimasV2UartDemo/mimasV2UartDemo/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
+xst -intstyle ise -ifn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.xst" -ofn "S:/FPGA_MINIPROJECT/UART_FPGA_new/top_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf/mimasV2.ucf -p xc6slx9-csg324-2 top_module.ngc top_module.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_module_map.ncd top_module.ngd top_module.pcf 
+par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd top_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_module.twx top_module.ncd -o top_module.twr top_module.pcf 
+bitgen -intstyle ise -f top_module.ut top_module.ncd 
